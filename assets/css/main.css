@@ -318,7 +318,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: var(--color-secondary);
 }
 
 .sticked-header-offset {
