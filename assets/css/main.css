@@ -1945,12 +1945,13 @@ section {
 
 .hero .icon-boxes {
   padding-bottom: 60px;
+  padding-left: 120px;
 }
 
 @media (min-width: 1200px) {
   .hero .icon-boxes:before {
     content: "";
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1963,10 +1964,10 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: rgba(108, 117, 125, 0.5);
+  background: rgb(108, 117, 125);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
-  border-radius: 8px;
+  border-radius: 20px;
   z-index: 1;
   height: 100%;
   width: 100%;
