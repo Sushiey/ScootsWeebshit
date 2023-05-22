@@ -1892,13 +1892,14 @@ section {
   margin-bottom: 30px;
 }
 
-.hero .btn-get-started {
+.hero .btn-about {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 14px 40px;
+  text-align: center;
+  padding: 15px 30px;
   border-radius: 50px;
   transition: 0.3s;
   color: #fff;
@@ -1907,7 +1908,7 @@ section {
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.hero .btn-get-started:hover {
+.hero .btn-about:hover {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1936,7 +1937,7 @@ section {
     font-size: 36px;
   }
 
-  .hero .btn-get-started,
+  .hero .btn-about,
   .hero .btn-watch-video {
     font-size: 14px;
   }
